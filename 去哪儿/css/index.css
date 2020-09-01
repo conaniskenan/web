@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background: #eee;
+}
+body {
+  /*
+    min-width: 设置当前元素最小的宽度
+    max-width: 设置当前元素最大的宽度
+    */
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  background: #fff;
+}
+.header img {
+  width: 100%;
+  vertical-align: bottom;
+}
+.section {
+  height: 100px;
+  background-color: #ff6556;
+  display: flex;
+  margin: 4px 2px;
+  color: #fff;
+  text-align: center;
+}
+.section:nth-of-type(2) {
+  background-color: #009bfc;
+}
+.section:nth-of-type(3) {
+  background-color: #7cb832;
+}
+.section:nth-of-type(4) {
+  background-color: #ff9900;
+  height: 50px;
+}
+.section .col {
+  border-left: 1px solid #fff;
+  flex: 1;
+  box-sizing: border-box;
+}
+.section col:nth-of-type(1) {
+  border-left: none;
+}
+.hotel p {
+  margin: 15px 0px;
+}
+.hotel img {
+  width: 40px;
+  height: 42px;
+}
+.col div {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #fff;
+  box-sizing: border-box;
+}
+.col div:nth-of-type(2) {
+  border-bottom: none;
+}
+.nav {
+  background-color: #ccc;
+  padding: 10px 0px;
+  margin: 4px 2px;
+}
+.nav ul {
+  list-style: none;
+  background-color: #fff;
+  display: flex;
+}
+.nav ul li {
+  height: 70px;
+  flex: 1;
+  text-align: center;
+}
+.nav ul li i {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  background: url("./../images/icons.png") no-repeat;
+  background-position: -35px -12px;
+}
+.nav ul li p {
+  font-size: 12px;
+  color: #666;
+}
+.guide {
+  display: flex;
+  height: 80px;
+  background-color: #fff;
+}
+.guide div {
+  flex: 1;
+
+  text-align: center;
+}
+.guide div i {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #666;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.guide div:nth-of-type(1) i {
+  font-size: 30px;
+}
+.guide div:nth-of-type(2) i {
+  font-size: 25px;
+}
+.guide div:nth-of-type(3) i {
+  font-size: 25px;
+}
+.guide div p {
+  color: #666;
+  font-size: 12px;
+}
+.footer {
+  height: 50px;
+  background-color: #ccc;
+  margin: 4px 2px;
+}
+.footer p {
+  float: left;
+  line-height: 50px;
+}
+.footer p:nth-of-type(1) {
+  margin-right: 10px;
+}
+.footer p a {
+  text-decoration: none;
+  color: #333;
+}
